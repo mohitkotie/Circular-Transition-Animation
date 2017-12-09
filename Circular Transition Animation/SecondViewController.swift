@@ -16,13 +16,8 @@ class SecondViewController: UIViewController {
 
 dismissButton.layer.cornerRadius = dismissButton.frame.size.width / 2
     }
-
-    
     @IBAction func dismissSecondVC(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
 
-        
     }
-    
-
 }

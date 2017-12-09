@@ -43,7 +43,6 @@ extension CircularTransition:UIViewControllerAnimatedTransitioning{
                 
                 circle = UIView()
                 circle.frame = frameForCircle(withViewCenter: viewCenter, size: viewSize, startingPoint: startingPoint)
-//circle.frame = frameForCircle(withViewCenter: viewCenter, size: viewSize, startingPoint: startingPoint)
                 circle.layer.cornerRadius = circle.frame.size.height / 2
                 circle.center = startingPoint
                 circle.backgroundColor = circleColor
