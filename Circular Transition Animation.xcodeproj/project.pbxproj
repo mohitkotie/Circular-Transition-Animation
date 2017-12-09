@@ -12,6 +12,8 @@
 		63477A061FDB1752001C5FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63477A041FDB1752001C5FDD /* Main.storyboard */; };
 		63477A081FDB1752001C5FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63477A071FDB1752001C5FDD /* Assets.xcassets */; };
 		63477A0B1FDB1752001C5FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63477A091FDB1752001C5FDD /* LaunchScreen.storyboard */; };
+		63E3FEE91FDC0FD500133DDD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3FEE81FDC0FD500133DDD /* SecondViewController.swift */; };
+		63E3FEEB1FDC141900133DDD /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3FEEA1FDC141900133DDD /* CircularTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		63477A071FDB1752001C5FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63477A0A1FDB1752001C5FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63477A0C1FDB1752001C5FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E3FEE81FDC0FD500133DDD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		63E3FEEA1FDC141900133DDD /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				63477A001FDB1752001C5FDD /* AppDelegate.swift */,
 				63477A021FDB1752001C5FDD /* ViewController.swift */,
+				63E3FEE81FDC0FD500133DDD /* SecondViewController.swift */,
 				63477A041FDB1752001C5FDD /* Main.storyboard */,
 				63477A071FDB1752001C5FDD /* Assets.xcassets */,
 				63477A091FDB1752001C5FDD /* LaunchScreen.storyboard */,
 				63477A0C1FDB1752001C5FDD /* Info.plist */,
+				63E3FEEA1FDC141900133DDD /* CircularTransition.swift */,
 			);
 			path = "Circular Transition Animation";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E3FEE91FDC0FD500133DDD /* SecondViewController.swift in Sources */,
 				63477A031FDB1752001C5FDD /* ViewController.swift in Sources */,
 				63477A011FDB1752001C5FDD /* AppDelegate.swift in Sources */,
+				63E3FEEB1FDC141900133DDD /* CircularTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
